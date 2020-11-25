@@ -30,11 +30,10 @@
       </nav>
     </header>
     <main class="page-main">
-      <section class="download">
-        <h2>Взгляните на жизнь иначе!</h2>
+      <section class="page-main__download download">
+        <h2 class="page-main__description">Взгляните на жизнь иначе!</h2>
         <img src="img/" width="320" height="462" alt=""/>
-        <a class="" href="#">Скачать приложение</a>
-        <div class="download_wrapper">
+        <a class="download__button" href="#">Скачать приложение</a>
           <ul class="download__list">
             <li class="download__item">
               <a class="download__link--apple">
@@ -55,14 +54,13 @@
               </a>
             </li>
           </ul>
-          <p>
+          <p class="download__text">
             Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
           </p>
-        </div>
       </section>
       <section class="page-main__reasons reasons">
         <h1 class="visually-hidden">Особенности</h1>
-        <h2>Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
+        <h2 class="page-main__description">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
         <ul class="reasons__list">
           <li class="reasons__item">
             <h3 class="reasons_title">Поднимает настроение</h3>
@@ -78,7 +76,7 @@
           </li>
         </ul>
       </section>
-      <section class="reviews">
+      <section class="page-main__reviews reviews">
         <h1 class="reviews__title">Отзывы</h1>
         <div class="reviews__list">
           <blockquote class="reviews__item">
@@ -89,18 +87,18 @@
           </blockquote>
         </div>
       </section>
-      <section class="price">
-        <table>
-          <thead>
+      <section class="page-main__price price">
+        <table class="price__table">
+          <thead class="price__header">
             <tr>
-              <td></td>
-              <td>1,99 USD</td>
-              <td>3,99 USD</td>
-              <td>9,99 USD</td>
+              <td class="visually-hidden"></td>
+              <td class="price__header--item">1,99 USD</td>
+              <td class="price__header--item">3,99 USD</td>
+              <td class="price__header--item">9,99 USD</td>
             </tr>
           </thead>
-          <tbody>
-            <tr>
+          <tbody class="price__body">
+            <tr class="">
               <td>Розовый фильтр</td>
               <td>yes</td>
               <td>yes</td>
@@ -122,8 +120,8 @@
         </table>
       </section>
       <section class="page-main__contacts contacts">
-        <h1 class="visually-hidden">Контакты</h1>
-        <h2>Остались вопросы? Свяжитесь с нами!</h2>
+        <h1 class="visually-hidden contacts__title">Контакты</h1>
+        <h2 class="page-main__description">Остались вопросы? Свяжитесь с нами!</h2>
         <ul>
           <li class="contacts__phone">
             <p>Звоните:<a href="tel:+74956660166">Тел: +7 (812) 555-66-66</a></p>
@@ -144,7 +142,7 @@
     <footer class="page-footer">
       <section class="logo"></section>
       <section class="page-footer__social social">
-        <h2 class="visually-hidden">Мы в соцсетях</h2>
+        <h1 class="visually-hidden">Мы в соцсетях</h2>
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--twitter" href="#">
