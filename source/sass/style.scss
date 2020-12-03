@@ -1,2 +1,36 @@
-body { background: green;
-  }
+$white:#FFFFFF;
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import "blocks/main-navigation.scss";
+@import "blocks/contacts.scss";
+@import "blocks/copyright.scss";
+@import "blocks/download.scss";
+@import "blocks/logo.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-header.scss";
+@import "blocks/page-main.scss";
+@import "blocks/page.scss";
+@import "blocks/price.scss";
+@import "blocks/reasons.scss";
+@import "blocks/reviews.scss";
+@import "blocks/social.scss";
+@import "blocks/visually-hidden.scss";
