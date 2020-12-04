@@ -1,5 +1,17 @@
-.form-progress {}
-.form-progress__list {}
-.form-progress__list-item {}
-.form-progress__list--checked {}
-.form-progress__list--unchecked {}
+.form-progress {
+
+}
+
+.form-progress__list {
+  &--checked {
+
+  }
+
+  &--unchecked {
+
+  }
+}
+
+.form-progress__list-item {
+
+}

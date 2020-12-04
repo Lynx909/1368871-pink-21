@@ -1,8 +1,27 @@
-.price {}
-.price__table {}
-.price__header {}
-.price__header--item {}
-.price__body {}
-.price__body--text {}
-.price__body--checked {}
-.price__body--unchecked {}
+.price {
+
+}
+
+.price__table {
+
+}
+
+.price__header {
+  &--item {
+
+  }
+}
+
+.price__body {
+  &--text {
+
+  }
+
+  &--checked {
+
+  }
+
+  &--unchecked {
+
+  }
+}

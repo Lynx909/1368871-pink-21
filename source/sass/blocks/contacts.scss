@@ -1,8 +1,25 @@
-.contacts {}
-.contacts__title {}
-.contacts__phone {}
-.contacts__phone--text {}
-.contacts__email {}
-.contacts__email--text {}
-.contacts__address {}
-.contacts__address--text {}
+.contacts {
+
+}
+
+.contacts__title {
+
+}
+
+.contacts__phone {
+  &--text {
+
+  }
+}
+
+.contacts__email {
+  &--text {
+
+  }
+}
+
+.contacts__address {
+  &--text {
+
+  }
+}

@@ -1,7 +1,25 @@
-.form-system {}
-.form-system__title {}
-.form-system__list {}
-.form-system__list-item {}
-.form-system__list-radio {}
-.form-system__list-radio--checked {}
-.form-system__list-radio--unchecked {}
+.form-system {
+
+}
+
+.form-system__title {
+
+}
+
+.form-system__list {
+
+}
+
+.form-system__list-item {
+
+}
+
+.form-system__list-radio {
+  &--checked {
+
+  }
+
+  &--unchecked {
+
+  }
+}

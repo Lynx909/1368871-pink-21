@@ -1,7 +1,25 @@
-.editor {}
-.editor__button {}
-.editor__button--crop {}
-.editor__button--fill {}
-.editor__button--contrast {}
-.editor__send {}
-.editor__cancel {}
+.editor {
+
+}
+
+.editor__button {
+  &--crop {
+
+  }
+
+  &--fill {
+
+  }
+
+  &--contrast {
+
+  }
+}
+
+.editor__send {
+
+}
+
+.editor__cancel {
+
+}
