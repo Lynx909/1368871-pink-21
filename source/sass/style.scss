@@ -32,17 +32,27 @@ $crimson:#D22856;
   font-weight: normal;
   font-style: normal;
 }
-@import "blocks/main-navigation.scss";
+
 @import "blocks/contacts.scss";
 @import "blocks/copyright.scss";
 @import "blocks/download.scss";
+@import "blocks/editor.scss";
+@import "blocks/form-contacts.scss";
+@import "blocks/form-emotions.scss";
+@import "blocks/form-name.scss";
+@import "blocks/form-progress.scss";
+@import "blocks/form-system.scss";
+@import "blocks/form.scss";
 @import "blocks/logo.scss";
+@import "blocks/main-navigation.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/page-header.scss";
 @import "blocks/page-main.scss";
 @import "blocks/page.scss";
+@import "blocks/post.scss";
 @import "blocks/price.scss";
 @import "blocks/reasons.scss";
 @import "blocks/reviews.scss";
+@import "blocks/scale.scss";
 @import "blocks/social.scss";
 @import "blocks/visually-hidden.scss";
